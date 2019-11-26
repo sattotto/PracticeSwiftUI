@@ -10,7 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        // 縦方向にまとめるUI
+        VStack(alignment: .center) {
+            Text("Hello, World!")
+                .font(.title)
+                .padding()
+            Text("This space is vertical stack")
+            // 横方向にまとめるUI
+            HStack {
+                Text("Practice SwiftUI Project")
+                Spacer()
+                Text("by satoto")
+                    .foregroundColor(.gray)
+            }.padding()
+        }
     }
 }
 
