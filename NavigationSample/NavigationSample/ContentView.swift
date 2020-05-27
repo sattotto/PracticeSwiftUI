@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var message = "NavigationBarボタンをタップしてください"
+    @State var fightingGames = ["BBTAG", "BBCF", "GGXrd", "ストV"]
     
     var body: some View {
         NavigationView {
@@ -19,9 +20,22 @@ struct ContentView: View {
             // Navigation内のアイテムを複数置きたい場合はVStackやHStackで複数配置できる
             VStack {
                 Text(message).font(.largeTitle)
+                    .padding()
                 // 次の画面への遷移
                 NavigationLink(destination: SecondView()){
                     Text("次のビューを表示").font(.system(size: 30))
+                }.padding()
+                // TableViewの作成
+                List {
+                    // ForEach参考
+                    // https://capibara1969.com/1650/
+                    ForEach(fightingGames, id: \.self) { game in
+                        // セルタップ時の動作を追加
+                        NavigationLink(destination: DetailView(name: game)) {
+                            // 各Cellの名前
+                            Text(game)
+                        }
+                    }
                 }
             }
             // Stack内のアイテムに付いていても表示されるが外にあったほうがわかりやすい...??
