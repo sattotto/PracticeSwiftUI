@@ -15,6 +15,8 @@
 		E746FA0D263ED0BB00D91371 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746F9E2263ED0BA00D91371 /* ContentView.swift */; };
 		E746FA0E263ED0BB00D91371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E746F9E3263ED0BB00D91371 /* Assets.xcassets */; };
 		E746FA0F263ED0BB00D91371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E746F9E3263ED0BB00D91371 /* Assets.xcassets */; };
+		E746FA23263ED3D700D91371 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746FA22263ED3D700D91371 /* ContentTabView.swift */; };
+		E746FA24263ED3D700D91371 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746FA22263ED3D700D91371 /* ContentTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		E746FA03263ED0BB00D91371 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E746FA07263ED0BB00D91371 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E746FA09263ED0BB00D91371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746FA22263ED3D700D91371 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				E746F9E1263ED0BA00D91371 /* TABBarSampleApp.swift */,
 				E746F9E2263ED0BA00D91371 /* ContentView.swift */,
+				E746FA22263ED3D700D91371 /* ContentTabView.swift */,
 				E746F9E3263ED0BB00D91371 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E746FA0C263ED0BB00D91371 /* ContentView.swift in Sources */,
+				E746FA23263ED3D700D91371 /* ContentTabView.swift in Sources */,
 				E746FA0A263ED0BB00D91371 /* TABBarSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E746FA0D263ED0BB00D91371 /* ContentView.swift in Sources */,
+				E746FA24263ED3D700D91371 /* ContentTabView.swift in Sources */,
 				E746FA0B263ED0BB00D91371 /* TABBarSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
