@@ -16,6 +16,10 @@
 		740EE31727324F7A00B4DC21 /* HostingViewControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE31627324F7A00B4DC21 /* HostingViewControllerSampleTests.swift */; };
 		740EE32127324F7A00B4DC21 /* HostingViewControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE32027324F7A00B4DC21 /* HostingViewControllerSampleUITests.swift */; };
 		740EE32327324F7A00B4DC21 /* HostingViewControllerSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE32227324F7A00B4DC21 /* HostingViewControllerSampleUITestsLaunchTests.swift */; };
+		740EE330273254FA00B4DC21 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE32F273254FA00B4DC21 /* ActivityIndicator.swift */; };
+		740EE332273255FC00B4DC21 /* IndicatorExample.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE331273255FC00B4DC21 /* IndicatorExample.swift.swift */; };
+		740EE3342732599900B4DC21 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE3332732599900B4DC21 /* LoadingView.swift */; };
+		740EE33627325F4F00B4DC21 /* LoadingViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE33527325F4F00B4DC21 /* LoadingViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		740EE31C27324F7A00B4DC21 /* HostingViewControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostingViewControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740EE32027324F7A00B4DC21 /* HostingViewControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingViewControllerSampleUITests.swift; sourceTree = "<group>"; };
 		740EE32227324F7A00B4DC21 /* HostingViewControllerSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingViewControllerSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		740EE32F273254FA00B4DC21 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		740EE331273255FC00B4DC21 /* IndicatorExample.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorExample.swift.swift; sourceTree = "<group>"; };
+		740EE3332732599900B4DC21 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		740EE33527325F4F00B4DC21 /* LoadingViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		740EE2FE27324F7700B4DC21 /* HostingViewControllerSample */ = {
 			isa = PBXGroup;
 			children = (
+				740EE32F273254FA00B4DC21 /* ActivityIndicator.swift */,
 				740EE2FF27324F7700B4DC21 /* AppDelegate.swift */,
 				740EE30127324F7700B4DC21 /* SceneDelegate.swift */,
 				740EE30327324F7700B4DC21 /* ViewController.swift */,
+				740EE3332732599900B4DC21 /* LoadingView.swift */,
 				740EE30527324F7700B4DC21 /* Main.storyboard */,
 				740EE30827324F7900B4DC21 /* Assets.xcassets */,
 				740EE30A27324F7900B4DC21 /* LaunchScreen.storyboard */,
 				740EE30D27324F7900B4DC21 /* Info.plist */,
+				740EE331273255FC00B4DC21 /* IndicatorExample.swift.swift */,
+				740EE33527325F4F00B4DC21 /* LoadingViewExample.swift */,
 			);
 			path = HostingViewControllerSample;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740EE3342732599900B4DC21 /* LoadingView.swift in Sources */,
+				740EE330273254FA00B4DC21 /* ActivityIndicator.swift in Sources */,
+				740EE33627325F4F00B4DC21 /* LoadingViewExample.swift in Sources */,
 				740EE30427324F7700B4DC21 /* ViewController.swift in Sources */,
 				740EE30027324F7700B4DC21 /* AppDelegate.swift in Sources */,
 				740EE30227324F7700B4DC21 /* SceneDelegate.swift in Sources */,
+				740EE332273255FC00B4DC21 /* IndicatorExample.swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
