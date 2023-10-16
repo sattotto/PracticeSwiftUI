@@ -11,6 +11,9 @@ import SwiftUI
 struct SecondTabItem: View {
     var body: some View {
         Text("Second Tab!!")
+        Text("First Item!!")
+        Text("Second Item!!")
+        Text("Third Item!!")
     }
 }
 
